@@ -107,3 +107,29 @@ html {
 .today {
     background-color: #167e56;
 }
+
+.color {
+    height:0.6rem;
+    width:0.6rem;
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 1px;
+    position:relative;
+    left: 0;
+}
+
+.colorlist {
+    flex-wrap: wrap;
+    vertical-align: bottom;
+    list-style: none;
+    position: relative;
+    top: 0.02rem;
+}
+
+.icons1 {
+    position: relative;
+}
+
+.icons2 {
+    position: relative;
+}

@@ -57,9 +57,43 @@ const renderCalendar = () => {
       i === new Date().getDate() &&
       date.getMonth() === new Date().getMonth()
     ) {
-      days += `<div class="today">${i}</div>`;
+      days += `<div class="today"><div class="datenumber">${i}</div>
+      <div class="icons1">
+      <ul class="colorlist">
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+      </ul>
+      </div>
+      <div class="icons2">
+      <ul class="colorlist">
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+      </ul>
+      </div>
+      </div>`;
     } else {
-      days += `<div>${i}</div>`;
+      days += `<div><div class="datenumber">${i}</div>
+      <div class="icons1">
+      <ul class="colorlist">
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+      </ul>
+      </div>
+      <div class="icons2">
+      <ul class="colorlist">
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+        <li class="color"></li>
+      </ul>
+      </div>
+      </div>`;
     }
   }
 
